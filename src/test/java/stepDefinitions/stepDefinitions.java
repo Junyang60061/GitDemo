@@ -96,5 +96,6 @@ public class stepDefinitions extends Utils {
 		res=given().spec(requestSpecification())
 		.body(data.deletePlacePayload(place_id));
 		System.out.println("new branch changes");
+		System.out.println("This is from GitX US new branch changes");
 	}
 }
