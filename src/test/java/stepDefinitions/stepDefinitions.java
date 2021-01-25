@@ -84,6 +84,8 @@ public class stepDefinitions extends Utils {
 		assertEquals(actualName, expectedName);
 		System.out.println(actualName);
 		System.out.println(place_id);
+		System.out.println(expectedName);
+		System.out.println("More changes");
 
 
 }
