@@ -86,6 +86,7 @@ public class stepDefinitions extends Utils {
 		System.out.println(place_id);
 		System.out.println(expectedName);
 		System.out.println("More changes");
+		System.out.println("new branch changes");
 
 
 }
@@ -94,6 +95,6 @@ public class stepDefinitions extends Utils {
 	    // Write code here that turns the phrase above into concrete actions
 		res=given().spec(requestSpecification())
 		.body(data.deletePlacePayload(place_id));
-	    
+		System.out.println("new branch changes");
 	}
 }

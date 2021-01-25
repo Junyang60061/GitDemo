@@ -13,7 +13,7 @@ Examples:
 #	|DDhouse |Chinese  |Shanghai City IL   |	
 	|GGhouse |Spanish   |Sea   cross center|	
 
-@DeletePlace @Regression
+@DeletePlace @Regression @Staging
 Scenario: Verify if Delete Place functioality is working
 	Given DeletePlace Playload
 	When user calls "deletePlaceAPI" with "POST" http request
