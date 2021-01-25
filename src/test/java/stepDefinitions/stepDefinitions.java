@@ -82,6 +82,9 @@ public class stepDefinitions extends Utils {
 		user_calls_with_http_request(resource, "GET");
 		String actualName=getJsonPath(response, "name");
 		assertEquals(actualName, expectedName);
+		System.out.println(actualName);
+		System.out.println(place_id);
+
 
 }
 	@Given("DeletePlace Playload")
